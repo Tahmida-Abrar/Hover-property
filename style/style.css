@@ -1,0 +1,54 @@
+button{
+   background-color: bisque;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+}
+button:hover{
+    color: red;
+}
+h2{
+    width: 300px;
+}
+h2:hover{
+    border: 2px solid blue;
+    width: 600px;
+}
+input{
+    padding: 10px;
+    width: 200px;
+    color: black;
+    border-radius: 5px;
+}
+input:focus-visible{
+    background-color: aquamarine;
+    border: 2px solid blueviolet;
+}
+/* list tag er css */
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: blue;
+}
+li:nth-child(2n){
+    color: rgb(0, 255, 0);
+} 
+.heading:hover{
+    border-radius: 100px;
+}
+h1:hover{
+    color: aqua;
+    background-color: grey;
+    border: 5px solid blue;
+    /*width: 500px;*/
+    border-radius: 5px;
+}
+h1::before{
+    content:" Tahmida ";
+}
+h1::after{
+    content: "3";
+}
+
+
