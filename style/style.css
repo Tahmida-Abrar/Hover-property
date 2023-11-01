@@ -24,7 +24,7 @@ input:focus-visible{
     background-color: aquamarine;
     border: 2px solid blueviolet;
 }
-.ancor{
+.ancor li{
  display: inline;
     list-style:none ;
 }
@@ -100,24 +100,21 @@ h5{
 .container{
     width: 500px;
     height: 300px;
-    border: 2px solid rgb(255, 0, 119);
-    background-color: antiquewhite;
+    /*border: 2px solid rosybrown;*/
+    /*background-color: antiquewhite;*/
     font-size: 40px;
 
 }
 .box{
     width: 500px;
-    height: 250px;
+    height: 270px;
     border: 2px solid red;
     background-color: aqua;
     transition: transform 5s ease-in-out,translate 3s;
-    /*transition: transform 5s ease-in;{start hobe aste ar stop hobe jore}*/
+    /*transition: transform 5s ease-in;*/
     /*transition: transform 5s ease-in-out;*/
-
-    
 }
 .box:hover{
-    /*background-color: aquamarine;*/
     transform: scale(0.50) rotate(60deg); 
     translate: 100px 40px;
 }
@@ -140,6 +137,8 @@ h5{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+/*.card-grid h6{
+    font size: 50px;*/
 .card-grid div{
     border: 2px solid black;
     border: none;
